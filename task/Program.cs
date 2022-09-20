@@ -13,6 +13,17 @@ for (int i = 0; i < n; i++)
     Console.Write($"{strs[i] + " " }");
     
 }
+Console.WriteLine();
+Console.WriteLine("Массив из строк, длинна которых меньше  или равен трем символам :");
+for (int i = 0; i < n; i++)
+{
+    int len = strs[i].Length;
+    if( len <= 3)
+    {
+         Console.Write($"{strs[i] + " " }");
+    }
+    
+}
 // Console.Write("Нажмите [Enter] для выхода...");
 // Console.ReadLine();
 // int len = strs[0].Length;
