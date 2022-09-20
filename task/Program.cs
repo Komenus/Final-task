@@ -10,13 +10,14 @@ for (int i = 0; i < n; i++)
 Console.WriteLine("Вы ввели следующие строки :");
 for (int i = 0; i < n; i++)
 {
-    Console.WriteLine(strs[i]);
+    Console.Write($"{strs[i] + " " }");
+    
 }
-Console.Write("Нажмите [Enter] для выхода...");
-Console.ReadLine();
+// Console.Write("Нажмите [Enter] для выхода...");
+// Console.ReadLine();
 // int len = strs[0].Length;
-for (int i = 0; i < n; i++)
-int len = strs[i].Length;
-{
-    if
-}
+// for (int i = 0; i < n; i++)
+// int len = strs[i].Length;
+// {
+//     if
+// }
